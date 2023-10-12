@@ -26,7 +26,7 @@ function isValid(expression) {
 
 buttonList.forEach(function (button) {
   button.onclick = function () {
-    console.log(button);
+    // console.log(button);
     switch (button.innerHTML) {
       case "AC":
         outputDisplay = "";
@@ -34,12 +34,12 @@ buttonList.forEach(function (button) {
         break;
       case "=":
         //change multiply char
-        console.log(outputDisplay);
+        // console.log(outputDisplay);
         if (!isValid(outputDisplay)) {
           extraDisplay.innerHTML = "Expression error";
         } else {
           let result = eval(outputDisplay);
-          console.log(result);
+          // console.log(result);
           extraDisplay.innerHTML = outputDisplay;
           outputDisplay = result;
         }

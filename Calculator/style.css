@@ -53,15 +53,15 @@
   display: flex;
 }
 
-.button p.function {
+.button p.gray-button {
   background-color: #a5a5a5;
   color: #000;
 }
 
-.button p.operand {
+.button p.orange-button {
   background-color: #ff9f0a;
 }
 
-.button p.number {
+.button p.black-button {
   background-color: #333333;
 }
