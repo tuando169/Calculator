@@ -49,7 +49,7 @@ buttonList.forEach(function (button) {
           outputDisplay = outputDisplay.slice(0, -3);
         else outputDisplay = outputDisplay.slice(0, -1);
         break;
-      case "TW":
+      case "🐋":
         extraDisplay.innerHTML = "Team Whales 🐋🐋";
         outputDisplay = "TW 2-1 CFO";
         break;
