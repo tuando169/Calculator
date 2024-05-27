@@ -68,3 +68,5 @@ buttonList.forEach(function (button) {
     mainDisplay.innerHTML = outputDisplay;
   };
 });
+
+console.log(123)
